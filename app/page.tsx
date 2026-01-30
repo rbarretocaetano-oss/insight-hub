@@ -9,7 +9,7 @@ export default function Home() {
       <p>
         {isBrazil
           ? "O hub de insights está no ar."
-          : "The insights hub is live."}
+          : "The Insights Hub is live."}
       </p>
     </main>
   );
