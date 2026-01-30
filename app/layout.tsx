@@ -1,16 +1,16 @@
 export const metadata = {
   title: "Insight Hub",
-  description: "Hub de insights",
-}
+  description: "MVP",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-br">
-      <body>{children}</body>
+    <html lang="pt-BR">
+      <body style={{ margin: 0, fontFamily: "sans-serif" }}>{children}</body>
     </html>
-  )
+  );
 }
