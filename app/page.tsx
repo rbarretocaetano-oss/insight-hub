@@ -8,8 +8,8 @@ export default function Home() {
       <h1>Insight Hub 🚀</h1>
       <p>
         {isBrazil
-          ? "O hub de insights está no ar."
-          : "The Insights Hub is live."}
+          ? "Seu banco de palpites está no ar. Rumo ao acerto."
+          : "Your prediction hub is live. Moving toward accuracy."}
       </p>
     </main>
   );
